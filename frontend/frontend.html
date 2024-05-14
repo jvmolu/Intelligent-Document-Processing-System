@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sunbase RAG Assignment</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Sunbase Assignment</h1>
+        <form action="/query" method="POST">
+
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required><br><br>
+            
+            <label for="upload">Upload File:</label>
+            <input type="file" id="upload" name="upload" accept=".txt" required><br><br>
+
+            <label for="text">File Preview:</label>
+            <textarea id="text" name="text" rows="10" cols="50"></textarea><br><br>
+            
+            <button type="button" onclick="getTextFromFile()">Get Text From File</button><br><br>
+            <button type="button" onclick="uploadText()">Submit File</button><br><br>
+
+            <label for="query">Query:</label>
+            <input type="text" id="query" name="query" required><br><br>
+            <button type="button" onclick="hitQuery()">Hit Query</button><br><br>
+
+            <label for="result">Result:</label>
+            <textarea id="result" name="result" rows="10" cols="50"></textarea>
+
+        </form>
+    </div>
+</body>
+
+<script src="func.js"></script>
+
+</html>

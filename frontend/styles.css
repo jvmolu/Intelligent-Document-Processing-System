@@ -1,0 +1,75 @@
+body {
+    /* Background Image */
+    /* background-image: url('https://img.freepik.com/free-vector/bokeh-defocused-background_23-2148497833.jpg'); */
+    /* background-image: url('https://img.freepik.com/free-vector/blue-curve-background_53876-113112.jpg'); */
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+#text{
+    /* Dont Allow users to edit text inside */
+    user-select: none;
+    /* Users should be able to scroll */
+    overflow-y: scroll;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+input[type="text"], input[type="file"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #45a049;
+    cursor: pointer;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+label {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+}
