@@ -8,7 +8,7 @@ Prerequisites: Java 17 or higher, Maven should be set up in the system for the b
 
 1. Clone the repository: git clone https://github.com/iamsarthak14/Sunbase-RAG-Assignment.git
 2. Download the Glove word embeddings using this link: http://nlp.stanford.edu/data/glove.6B.zip
-3. Navigate to the project directory: cd backend/Sunbase-RAG-Assignment
+3. Navigate to the project directory
 4. Setup the application.properties file in the project in its default location [A Template for application.properties is provided in the repository]
 6. Build the project: _mvn clean install_
 7. Start the spring project
