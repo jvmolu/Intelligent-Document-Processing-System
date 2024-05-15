@@ -39,3 +39,11 @@ Now, you can either submit a new document or query your submitted documents
 1. Support for multiple file formats.
 2. Add a loading icon in the front end, signifying when the user request is being processed.
 3. Better prompt engineering to make query answers accurate and more aligned with the input data.
+
+## References:
+
+For glove embeddings usage, I took some reference from this amazing project's code: https://github.com/chen0040/java-text-embedding/tree/master
+
+
+
+
