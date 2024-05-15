@@ -6,7 +6,7 @@ The chatbot is designed to engage in conversational interactions with users, pro
 
 Prerequisites: Java 17 or higher, Maven should be set up in the system for the backend to work.
 
-1. Clone the repository: git clone https://github.com/iamsarthak14/Sunbase-RAG-Assignment.git
+1. Clone the repository
 2. Download the Glove word embeddings using this link: http://nlp.stanford.edu/data/glove.6B.zip
 3. Navigate to the project directory
 4. Setup the application.properties file in the project in its default location [A Template for application.properties is provided in the repository]
